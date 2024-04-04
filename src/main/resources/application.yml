@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  rabbitmq:
+    host: localhost
+    password: Punt0net1
+    port: 15672
+    username: mlops_user1
+    exchange: user.exchange
+    queue: user.queue
+    routingkey: user.routingkey
